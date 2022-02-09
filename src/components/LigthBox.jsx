@@ -1,7 +1,7 @@
 import React, {useState,useEffect}from 'react';
 import '../styles/ligthBox.scss';
 
-const LigthBox = (props) => {
+const LigthBox = () => {
 
     const [fadeProp, setFadeProp] = useState({
         fade: 'fade-in',
