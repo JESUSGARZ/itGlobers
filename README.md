@@ -1,3 +1,19 @@
+# itGlobers Interview test.
+
+Here you will find the final result of the thecnical test, that consists on developed a layout for a "travel agency".
+
+## Deploy
+
+in this link you will find the deploy of the project in Netlify, just for you to try it out.
+
+## Layout
+
+![final](./it1.png)
+![final](./it2.png)
+![final](./it3.png)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
