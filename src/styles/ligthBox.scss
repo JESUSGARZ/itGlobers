@@ -1,0 +1,16 @@
+.fade-in {
+    width: 500px;
+    transition: opacity 1s ease;
+    background-color: #00FA9A;
+    padding: 15px;
+    text-align: center;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 1s ease;
+    display: none;
+}
+.fade-out h1 {
+    display: none;
+}

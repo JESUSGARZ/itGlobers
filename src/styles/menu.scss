@@ -1,0 +1,39 @@
+@import './globales.scss';
+nav {
+    margin: 25px;
+    p{
+        text-align: center;
+        margin: 25px;
+    }
+    ul{
+        display: flex;
+        width: 100%;
+    }
+    li{
+        list-style: none;
+        margin-left: 15px;
+        background-color: $color-secundario;
+        border-radius: 30px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        text-align: center;
+
+    }
+}
+
+@media (max-width:920px) {
+    nav {
+        ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        li {
+            margin-top: 15px;
+        }
+    }
+   
+}
