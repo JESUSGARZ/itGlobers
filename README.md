@@ -4,7 +4,7 @@ Here you will find the final result of the thecnical test, that consists on deve
 
 ## Deploy
 
-in this link you will find the deploy of the project in Netlify, just for you to try it out.
+in this link [Go to Project](https://elated-archimedes-98abd8.netlify.app/) you will find the deploy of the project in Netlify, just for you to try it out.
 
 ## Layout
 
