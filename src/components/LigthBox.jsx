@@ -1,8 +1,8 @@
 import React, {useState,useEffect}from 'react';
 import '../styles/ligthBox.scss';
 
-const LigthBox = () => {
-
+const LigthBox = (props) => {
+    const {formValid} = props
     const [fadeProp, setFadeProp] = useState({
         fade: 'fade-in',
     })
@@ -18,7 +18,8 @@ const LigthBox = () => {
                     fade: 'fade-in'
                 })
             }
-        
+            
+            formValid(false)
 
         }, 5000)
 

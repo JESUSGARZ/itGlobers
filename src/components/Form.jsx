@@ -135,7 +135,7 @@ function Form(props) {
     edad: edadVal 
   } = validations
 
- 
+
 
   return (
    <div className="container">
@@ -143,7 +143,7 @@ function Form(props) {
         diligencia el siguiente formulario:</p>
       {
         formValid 
-        ? <LigthBox formValidated = {setFormValid}/>
+        ? <LigthBox formValid = {setFormValid} />
         : false
       }
      <form className="user-info" onSubmit={handleSubmit}>
